@@ -1,0 +1,23 @@
+/* Imagen de fondo (cambia "tu-imagen.jpg" por la tuya) */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("fondo.jpg") no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor del contador */
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* oscurece un poco el fondo */
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
